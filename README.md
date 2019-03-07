@@ -1,3 +1,5 @@
+![Travis CI Build Status](https://travis-ci.com/AdaGold/string_reverse.svg?branch=solution)
+
 # String Reverse
 In this assignment, you'll design and implement one of the string manipulation functions.
 Remember that a string is an array of characters. Algorithms that worked on array data structure will work on strings as well.
