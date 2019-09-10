@@ -11,7 +11,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_equal "olleH"
+      expect(test_string).must_equal "olleH"
     end
 
     it "reverse a string with even number of characters" do
@@ -19,7 +19,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_equal "erawtfoS"
+      expect(test_string).must_equal "erawtfoS"
     end
   end
 
@@ -31,7 +31,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_be_empty
+      expect(test_string).must_be_empty
     end
 
     # if the parameter is an object, check for nil
@@ -40,7 +40,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_be_nil
+      expect(test_string).must_be_nil
     end
 
     it "string with one character passed to reverse" do
@@ -48,7 +48,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_equal "?"
+      expect(test_string).must_equal "?"
     end
 
     it "a really long string passed to reverse" do
@@ -56,7 +56,7 @@ describe "string reverse" do
 
       string_reverse(test_string)
 
-      test_string.must_equal "!suoicodilaipxecitsilegarfilacrepuS .suoicocerp dnuos syawla ll'uoy ,hguone duol ti yas uoy fI .suoicorta etiuq gnihtemos si ti fo dnuos eht hguoht nevE !suoicodilaipxecitsilegarfilacrepuS ,hO"
+      expect(test_string).must_equal "!suoicodilaipxecitsilegarfilacrepuS .suoicocerp dnuos syawla ll'uoy ,hguone duol ti yas uoy fI .suoicorta etiuq gnihtemos si ti fo dnuos eht hguoht nevE !suoicodilaipxecitsilegarfilacrepuS ,hO"
     end
   end
 end
